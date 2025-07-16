@@ -5,37 +5,79 @@ body{
 h1{
     color: rgb(61, 29, 16);
     text-align: center;
+    font-size: 60px;
 }
 p{
     color: rgb(61, 29, 16);
     text-align: center;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-
+.button-class{
+    display: flex;
+    justify-content: center;
+    button {
+        background-color: rgb(61, 29, 16);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    button:hover {
+       transition: background-color 0.3s ease;
+        background-color: rgb(156, 74, 41);
+    }
+    button:active {
+        background-color: rgb(243, 168, 138);
+    }
+}
 .image-container{
     height: 100%;
     font-size: 50px;
     text-align: center;
     #hobbies-image {
-        width: 400px;
+    width: 400px;
     }
 }
-.table-container {
+
+ul{
+    background: rgba(61, 29, 16, 0.5);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+table {
+    margin-top: 100px;
         #japao-image {
             width: 400px;
+            height: 300px;
         }
         #usa-image{
             width: 400px;
+            height: 300px;
         }
         #suica-image{
             width: 400px;
+            height: 300px;
         }
         font-size: 50px;
 }
 td, th {
-    border: 1px solid black;
-    padding: 8px;
+    border: 5px solid rgba(61, 29, 16, 0.5);;
+    padding: 10px;
     text-align: center;
 }
-table{
-    right: 50px;
+.table-container {
+   display: flex;
+   justify-content: center;
+}
+.youtube {
+    text-align: center;
+    a{color: rgb(61, 29, 16);
+    font-size: 30px;
+    text-align: center;}
+    a:hover{
+        color: rgb(156, 74, 41);
+    }
 }
