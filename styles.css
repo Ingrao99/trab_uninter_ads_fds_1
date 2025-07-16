@@ -1,0 +1,41 @@
+body{
+    background-image: url('Images/Background_Texture_\ 2.jpg');
+    background-size: cover;
+}
+h1{
+    color: rgb(61, 29, 16);
+    text-align: center;
+}
+p{
+    color: rgb(61, 29, 16);
+    text-align: center;
+}
+
+.image-container{
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    #hobbies-image {
+        width: 400px;
+    }
+}
+.table-container {
+        #japao-image {
+            width: 400px;
+        }
+        #usa-image{
+            width: 400px;
+        }
+        #suica-image{
+            width: 400px;
+        }
+        font-size: 50px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+table{
+    right: 50px;
+}
