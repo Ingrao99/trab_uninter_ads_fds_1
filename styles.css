@@ -1,6 +1,8 @@
 body{
-    background-image: url('Images/Background_Texture_\ 2.jpg');
-    background-size: cover;
+    background-image: url('Images/Background_Texture_\ 2.jpg');    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 h1{
     color: rgb(61, 29, 16);
